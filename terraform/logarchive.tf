@@ -5,8 +5,8 @@ module "logarchive" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail = "xxxxxxxx"
-    AccountName  = "logarchive"
+    AccountEmail = "aft_training_la@yopmail.com"
+    AccountName  = "Log Archive"
     # Syntax for top-level OU
     ManagedOrganizationalUnit = "Security"
     # Syntax for nested OU

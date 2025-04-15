@@ -5,10 +5,10 @@ module "aft" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail = "xxxxxxxx"
-    AccountName  = "aft"
+    AccountEmail = "Aft_training_AFT@yopmail.com"
+    AccountName  = "AFT"
     # Syntax for top-level OU
-    ManagedOrganizationalUnit = "Aft"
+    ManagedOrganizationalUnit = "AFT"
     # Syntax for nested OU
     # ManagedOrganizationalUnit = "Sandbox (ou-xfe5-a8hb8ml8)"
     SSOUserEmail     = "do-not-use@example.com"
@@ -17,7 +17,7 @@ module "aft" {
   }
 
   account_tags = {
-    "ABC:Owner"       = "owner@example.com"
+    "ABC:Owner"       = "owner@example.com" # format used to avoid clash with AWS tags
     "ABC:Environment" = "Prod"
     "ABC:Project"     = "LandingZone"
   }
