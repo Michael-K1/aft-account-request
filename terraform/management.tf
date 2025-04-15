@@ -20,6 +20,7 @@ module "management" {
     "ABC:Owner"       = "owner@example.com"
     "ABC:Environment" = "Prod"
     "ABC:Project"     = "LandingZone"
+    "ABC:debug"     = "test"
   }
 
   change_management_parameters = {
