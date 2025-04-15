@@ -8,7 +8,7 @@ module "management" {
     AccountEmail = "aft_training@yopmail.com"
     AccountName  = "aft_training"
     # Syntax for top-level OU
-    ManagedOrganizationalUnit = "root"
+    ManagedOrganizationalUnit = "Root"
     # Syntax for nested OU
     # ManagedOrganizationalUnit = "Sandbox (ou-xfe5-a8hb8ml8)"
     SSOUserEmail     = "do-not-use@example.com"
